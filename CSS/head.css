@@ -1,0 +1,57 @@
+.head{
+    background-color: #01020A;
+    width: 100%;
+    height: 176px;
+    position: fixed;
+    z-index: 1;
+    margin-top: -10px;
+}
+
+.headtitle{
+    font-size: 60px;
+    color: white;
+}
+
+.gobck{
+    width: 45px;
+    height: 40px;
+}
+
+.gobckbtn{
+    text-decoration: none;
+    line-height: 180px;
+}
+
+.blank{
+    height: 170px;
+    width: 100%
+}
+
+.container{
+    width: 1554px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 568px) {
+    .container {
+        width: 300px;
+    }
+    .headtitle{
+        font-size: 22px;
+        color: white;
+    }
+    .gobck{
+        width: 18px;
+        height: 16px;
+    }
+    .head{
+        height: 126px
+    }
+    .blank{
+        height: 120px;
+    }
+    .gobckbtn{
+        line-height: 160px;
+    }
+}

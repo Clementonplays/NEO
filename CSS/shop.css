@@ -1,0 +1,55 @@
+.box {
+    width: 750px;
+    height: 550px;
+    background-color: #00A888;
+    margin-bottom: 25px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.titlebox {
+    font-size: 54px;
+    color: white;
+    margin-left: 35px;
+}
+
+.descbox {
+    font-size: 30px;
+    color: white;
+    margin-left: 35px;
+    opacity: 60%;
+}
+
+.price {
+    width: 156px;
+    height: 72px;
+    background-color: #2EAA00;
+    font-size: 50px;
+    float: right;
+}
+
+@media only screen and (max-width: 568px) {
+    .container {
+        width: 300px;
+    }
+    .box {
+        width: 250px;
+        height: 200px;
+    }
+    .productimg{
+        width: 250px;
+        height: auto;
+    }
+    .price {
+        width: 36px;
+        height: 22px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .titlebox {
+        font-size: 22px;
+    }
+    .descbox {
+        font-size: 10px;
+    }
+}

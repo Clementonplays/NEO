@@ -1,0 +1,60 @@
+.container{
+    width: 1096px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    margin-top: 182px;
+}
+
+.box{
+    width: 515px;
+    height: 515px;
+    float: left;
+    margin-top: 25px;
+}
+
+.rightbx{
+    margin-right: 60px;
+}
+
+.pc{
+    background-color: #2EAA00;
+}
+
+.parts{
+    background-color: #00A888;
+}
+
+.box h1{
+    color: white;
+    font-size: 32px;
+    line-height: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 300px;
+    }
+    .logo{
+        width: 300px;
+        margin-top: 30px;
+    }
+    .box{
+        width: 300px;
+        height: 300px;
+    }
+    .pccover{
+        width: 300px;
+        height: auto;
+    }
+    .partscover{
+        width: 300px;
+        height: auto;
+    }
+    .box h1{
+        font-size: 20px;
+        line-height: 32px;
+    }
+}

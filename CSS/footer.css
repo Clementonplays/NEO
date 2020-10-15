@@ -1,0 +1,35 @@
+footer a{
+    text-decoration: none;
+    color: white;
+    line-height: 68px;
+    font-size: 32px;
+    opacity: 60%;
+}
+
+.aboutft{
+    float: right;
+}
+
+.designer:hover{
+    text-decoration: underline;
+}
+
+.containerft{
+    width: 1554px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .containerft{
+        width: 300px;
+    }
+    footer a{
+        line-height: 68px;
+        font-size: 12px;
+    }
+    .aboutft{
+        float: none;
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'main';
+    src: url(fonts/mainfont.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'main', sans-serif;
+}
+
+body{
+    background-color: #01020A;
+}
